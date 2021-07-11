@@ -1,0 +1,35 @@
+{
+  "name": "reddit-memes",
+  "version": "0.1.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "keywords": [],
+  "author": "Blad3Mak3r",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@blad3mak3r/reddit-memes": "^0.2.5",
+    "axios": "^0.21.1",
+    "next": "^10.0.7",
+    "node-fetch": "^2.6.1",
+    "object-path": "^0.11.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serialize-javascript": "^5.0.1",
+    "swagger-ui": "^3.43.0",
+    "swagger-ui-react": "^3.43.0"
+  },
+  "devDependencies": {
+    "@now/node": "^1.8.5",
+    "@types/node": "^12.12.36",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "@types/swagger-ui-react": "^3.23.1",
+    "typescript": "^3.8.3"
+  }
+}
